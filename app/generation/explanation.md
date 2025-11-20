@@ -1,15 +1,3 @@
-梳理 `app/generation/page.tsx` 的功能与技术点。先分析文件结构：
-
-
-[3 tools called]
-
-
-继续分析关键函数和流程：
-
-
-[3 tools called]
-
-
 ## 📋 文件概览
 
 `app/generation/page.tsx` 是 AI 代码生成与编辑平台的核心页面组件（3539行），负责：
