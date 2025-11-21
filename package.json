@@ -80,6 +80,8 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@locator/runtime": "^0.5.1",
+    "@locator/webpack-loader": "^0.5.1",
     "@types/lodash-es": "^4.17.12",
     "@types/node": "^20",
     "@types/react": "^19",
