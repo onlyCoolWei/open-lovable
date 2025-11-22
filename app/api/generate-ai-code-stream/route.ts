@@ -1244,7 +1244,7 @@ MORPH FAST APPLY MODE (EDIT-ONLY):
 
         // Make streaming API call with appropriate provider
         const streamOptions: any = {
-          model: modelProvider(actualModel),
+          model: openai.chat("gpt-4.1"),
           messages: [
             { 
               role: 'system', 
@@ -1324,6 +1324,8 @@ It's better to have 3 complete files than 10 incomplete files.`
             }
           };
         }
+
+        console.log('[generate-ai-code-stream] streamOptions:', streamOptions);
         
         let result;
         let retryCount = 0;
