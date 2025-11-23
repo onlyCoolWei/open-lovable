@@ -343,6 +343,7 @@ function AISandboxPage() {
   }, [chatMessages]);
 
   // Auto-trigger generation when flag is set (from home page navigation)
+  // 设置标志时自动触发生成（来自主页导航）
   useEffect(() => {
     if (shouldAutoGenerate && homeUrlInput && !showHomeScreen) {
       // Reset the flag
