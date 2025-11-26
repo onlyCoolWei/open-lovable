@@ -25,6 +25,12 @@ import {
 import { motion } from 'framer-motion';
 import CodeApplicationProgress, { type CodeApplicationState } from '@/components/CodeApplicationProgress';
 
+import setupLocatorUI from "@locator/runtime";
+
+if (process.env.NODE_ENV === "development") {
+  setupLocatorUI();
+}
+
 interface SandboxData {
   sandboxId: string;
   url: string;
